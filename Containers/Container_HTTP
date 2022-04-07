@@ -19,7 +19,9 @@ yum module install container-tools
 
 podman login registry.redhat.io
 
-skopeo inspect docker://registry.redhat.io/rhel8/httpd-24
+# skopeo inspect docker://registry.redhat.io/rhel8/httpd-24
+https://access.redhat.com/discussions/4154831 -> Login issue solution
+
 
 podman pull registry.redhat.io/rhel8/httpd-24:1-112
 
